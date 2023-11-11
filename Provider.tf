@@ -6,8 +6,8 @@ provider "aws" {
   default_tags {
     tags = {
       "Automation"  = "terraform"
-      "Project"     =  var.project_name
-      "Environment" =  var.enviroment
+      "Project"     = var.project_name
+      "Environment" = var.enviroment
     }
   }
 }
